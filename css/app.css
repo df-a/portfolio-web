@@ -5,6 +5,9 @@
  * foundation.zurb.com
  * Licensed under MIT Open Source
  */
+@import url("https://fonts.googleapis.com/css?family=Alegreya+Sans:500,500i,800|Alegreya:700i,700");
+@import url("bower_components/slick-carousel/slick/slick.css");
+@import url("bower_components/slick-carousel/slick/slick-theme.css");
 .slide-in-down.mui-enter {
   -webkit-transition-duration: 500ms;
           transition-duration: 500ms;
@@ -5346,3 +5349,36 @@ a.thumbnail {
 .long-delay {
   -webkit-animation-delay: 700ms !important;
           animation-delay: 700ms !important; }
+
+/* Typography */
+body {
+  font-family: "Alegreya Sans", sans-serif;
+  font-weight: 500; }
+
+em {
+  font-family: "Alegreya Sans", sans-serif;
+  font-weight: 500;
+  font-style: italic; }
+
+strong {
+  font-family: "Alegreya", serif;
+  font-weight: 800;
+  font-style: bold; }
+
+h1.title {
+  font-family: "Alegreya", serif;
+  font-weight: 700;
+  font-style: italic; }
+
+h1 {
+  font-family: "Alegreya", serif;
+  font-weight: 700;
+  font-style: normal; }
+
+h3 {
+  font-family: "Alegreya Sans", sans-serif;
+  font-weight: 500;
+  font-style: normal; }
+
+.top-actions {
+  margin-top: 20px; }

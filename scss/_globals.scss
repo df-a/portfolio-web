@@ -1,1 +1,55 @@
-//  Global css declarations
+/* Typography */
+// Google Fonts
+
+@import url('https://fonts.googleapis.com/css?family=Alegreya+Sans:500,500i,800|Alegreya:700i,700');
+
+
+// Font Vars
+$alegreya: 'Alegreya', serif;
+$alegreya-sans: 'Alegreya Sans', sans-serif;
+
+// Font Styles
+
+body {
+  font-family: $alegreya-sans;
+  font-weight: 500;
+}
+
+em {
+  font-family: $alegreya-sans;
+  font-weight: 500;
+  font-style: italic;
+}
+
+strong {
+  font-family: $alegreya;
+  font-weight: 800;
+  font-style: bold;
+}
+
+h1.title {
+  font-family: $alegreya;
+  font-weight: 700;
+  font-style: italic;
+}
+
+h1 {
+  font-family: $alegreya;
+  font-weight: 700;
+  font-style: normal;
+}
+
+h3 {
+  font-family: $alegreya-sans;
+  font-weight: 500;
+  font-style: normal;
+}
+
+//  Placement fixes
+.top-actions {
+	margin-top: 20px}
+
+
+// Slick Carousel
+@import url('bower_components/slick-carousel/slick/slick.css');
+@import url('bower_components/slick-carousel/slick/slick-theme.css');
