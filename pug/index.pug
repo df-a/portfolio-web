@@ -10,22 +10,42 @@ html(lang="en")
 		script(src="https://code.jquery.com/jquery-3.1.1.min.js")
 		script(src="js/app.js")
 	body
-		section#services
-			.header
-				.column.small-4.medium-5
-					h1.title David Felix:
-					h3 I make things better
-				.column.small-8.medium-7
-					nav
-						//- add data attributes between()
-						ul.horizontal.menu.top-actions.align-right(data-magellan data-sticky-container)
-							li: a.fi-asterisk(href="#services")  Services
-							li: a.fi-laptop(href="#previous-work")  Previous Work
-							li: a.fi-clipboard-notes(href="#about")  About
-							li: a.fi-comment-quotes(href="#contact")  Contact
-		section#previous-work
-			.row
+		header.row
+			.column.small-4.medium-5
+				h1.title David Felix:
+				h3 I make things better
+			.column.small-8.medium-7
+				nav
+					//- add data attributes between()
+					ul.horizontal.menu.top-actions.align-right(data-magellan data-sticky-container)
+						li: a.fi-asterisk(href="#services")  Services
+						li: a.fi-laptop(href="#previous-work")  Previous Work
+						li: a.fi-clipboard-notes(href="#about")  About
+						li: a.fi-comment-quotes(href="#contact")  Contact
+		section#services.row
+		section#previous-work.row
+			article
 				.column.small-6
 				.column.small-6
-		section#about
-		section#contact
+					p 	Client:
+					p 	Notes:
+			article
+				.column.small-6
+				.column.small-6
+			article
+				.column.small-6
+				.column.small-6
+			article
+				.column.small-6
+				.column.small-6
+			article
+				.column.small-6
+				.column.small-6
+			article
+				.column.small-6
+				.column.small-6
+			article
+				.column.small-6
+				.column.small-6
+		section#about.row
+		section#contact.row
