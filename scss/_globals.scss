@@ -39,6 +39,12 @@ h1 {
   font-style: normal;
 }
 
+h2 {
+  font-family: $alegreya-sans;
+  font-weight: 800;
+  font-style: normal;
+}
+
 h3 {
   font-family: $alegreya-sans;
   font-weight: 500;
@@ -49,6 +55,9 @@ h3 {
 .top-actions {
 	margin-top: 20px}
 
+.previous-work-article {
+  margin-bottom: 2em;
+}
 
 // Slick Carousel
 @import url('bower_components/slick-carousel/slick/slick.css');

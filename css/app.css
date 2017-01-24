@@ -5375,6 +5375,11 @@ h1 {
   font-weight: 700;
   font-style: normal; }
 
+h2 {
+  font-family: "Alegreya Sans", sans-serif;
+  font-weight: 800;
+  font-style: normal; }
+
 h3 {
   font-family: "Alegreya Sans", sans-serif;
   font-weight: 500;
@@ -5382,3 +5387,6 @@ h3 {
 
 .top-actions {
   margin-top: 20px; }
+
+.previous-work-article {
+  margin-bottom: 2em; }
