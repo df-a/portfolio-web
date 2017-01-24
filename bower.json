@@ -1,0 +1,23 @@
+{
+  "name": "david-felix-portfolio-web-2017",
+  "version": "1.0.0",
+  "authors": [
+    "David Felix <david.felix@live.com>"
+  ],
+  "description": "The online version of my portfolio.",
+  "main": "index.html",
+  "license": "MIT",
+  "homepage": "http://davidfelix.me",
+  "dependencies": {
+    "foundation-sites": "~6.3.0",
+    "motion-ui": "~1.2.2"
+  },
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "private": true
+}
